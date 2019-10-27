@@ -184,6 +184,11 @@ a {
   color: #454A59;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  a {
+    font-size: 13px;
+  }
+}
 a:hover {
   color: green;
 }
@@ -230,6 +235,21 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;
