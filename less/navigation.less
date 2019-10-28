@@ -20,19 +20,24 @@ h1 {
     justify-content: space-evenly;
     margin-top: 1%;
     margin-bottom: 2%;
-    font-size: 1.9rem;
     text-decoration: none;
     color: black;
+
+    @media @phone {
+        width: 100%;
+        justify-content: space-around;
+    }
 
 }
 
 a {
     text-decoration: none;
-    color: @river-bend;
+    // color: @river-bend;
     padding: 1%;
+    font-size: 1.6rem;
 
-    @media @mobile {
-        font-size: 13px;
+    @media @phone {
+        font-size: 1.3rem;
     }
 }
 
@@ -50,12 +55,14 @@ a:hover {
 }
 
 .links {
-    font-size: 1.8rem;
+    // font-size: 1.8rem;
     text-decoration: none;
-    width: 50%;
+    // width: 50%;
+    .link-styling(1.5rem, 60%);
 }
 
 .jumbotron {
     display: flex;
     justify-content: center;
+    
 }
