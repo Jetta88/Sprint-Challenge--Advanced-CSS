@@ -168,9 +168,10 @@ h1 {
   justify-content: center;
   width: 100%;
   background: #f4f4f4;
+  border: 1px solid orange;
 }
 .navigation-links {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin-top: 1%;
@@ -181,13 +182,14 @@ h1 {
 @media (max-width: 500px) {
   .navigation-links {
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }
 a {
   text-decoration: none;
-  padding: 1%;
+  margin: 1%;
   font-size: 1.6rem;
+  border: 1px solid darkblue;
 }
 @media (max-width: 500px) {
   a {
