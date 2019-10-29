@@ -1,1 +1,70 @@
 // Navigation code here
+
+
+h1 {
+    font-size: 3rem;
+}
+
+.navigation-area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #f4f4f4;
+    border: 1px solid orange;
+
+
+}
+
+.navigation-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: black;
+
+    @media @phone {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    // color: @river-bend;
+    margin: 1%;
+    font-size: 1.6rem;
+    border: 1px solid darkblue;
+
+    @media @phone {
+        font-size: 1.3rem;
+    }
+}
+
+a:hover {
+    color: green;
+}
+
+.text-logo-div {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%, 0;
+}
+
+.links {
+    // font-size: 1.8rem;
+    text-decoration: none;
+    // width: 50%;
+    .link-styling(1.5rem, 60%);
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    
+}
